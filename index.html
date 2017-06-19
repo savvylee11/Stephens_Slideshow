@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script src="slideshow.js"></script> 
+     <link rel="stylesheet" type="text/css" href="style.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+
     <title> Week 2 Homework Assignment </title>
   </head>
   
@@ -8,7 +13,7 @@
   </h1>
 
   <h2> Journalist, Web Developer, Disney Fan
-  </h2>h2> 
+  </h2> 
 
   <p> Savannah Stephens is currently an Editorial Aide in the Features Section of the Washington Post. She works directly with the Classical Music, Dance, and Theatre critics and helps to organize the Arts Previews that happen every Spring, Summer, and Fall. 
   </p> 
@@ -19,9 +24,42 @@
   <ul>
     <li><a href="https://www.washingtonpost.com/realestate/taylor-swift-goes-for-hollywood-history-in-new-home/2015/10/27/aca9b7a2-7cdc-11e5-afce-2afd1d3eb896_gallery.html" target="_blank">Taylor Swift buys a new home in LA</a></li>
     <li><a href="https://www.washingtonpost.com/news/where-we-live/wp/2015/09/22/pope-inspired-affordable-housing-project-in-d-c-to-be-named-for-pontiffs-mother/" target="_blank">Affordable housing in DC</a></li>
-    <li><a href="http://www.bbc.com/news/blogs-trending-32306098" target="_blank">An Act of Culinary Kindness/a></li>
-    <li><a href="https://www.washingtonpost.com/entertainment/music/self-aware-and-funny-second-city-guide-to-the-symphony-orchestra-goers-new-and-old/2016/09/18/d2cb171e-7db7-11e6-ad0e-ab0d12c779b1_story.html?utm_term=.0aeee4d5ccf7" target="_blank">The Second City's guide to the Symphony/a></li>
+    <li><a href="http://www.bbc.com/news/blogs-trending-32306098" target="_blank">An Act of Culinary Kindness</a></li>
+    <li><a href="https://www.washingtonpost.com/entertainment/music/self-aware-and-funny-second-city-guide-to-the-symphony-orchestra-goers-new-and-old/2016/09/18/d2cb171e-7db7-11e6-ad0e-ab0d12c779b1_story.html?utm_term=.0aeee4d5ccf7" target="_blank">The Second City's guide to the Symphony</a></li>
+  </ul>
+
+<div class="slideshow-container">
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/17904161_10103535379992107_8062604073006580883_n.jpg?oh=09cb433043a4525391c8dd13b62d9ae0&oe=59E0B697" style="width:100%">
+    <div class="Savannah with her boyfriend's family">Caption Text</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="img2.jpg" style="width:100%">
+    <div class="text">Caption Two</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="img3.jpg" style="width:100%">
+    <div class="text">Caption Three</div>
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
   <body>
+
     
     
   </body>
